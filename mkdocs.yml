@@ -12,7 +12,7 @@ theme:
   palette:
     # Scheme 1: Default to Light Mode
     - scheme: default
-      primary: teal
+      primary: yellow
       accent: purple
       toggle:
         icon: material/brightness-7
@@ -20,7 +20,7 @@ theme:
 
     # Scheme 2: Dark Mode
     - scheme: slate
-      primary: teal
+      primary: yellow
       accent: purple
       toggle:
         icon: material/brightness-4
