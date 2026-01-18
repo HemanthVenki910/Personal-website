@@ -1,9 +1,10 @@
-site_name: Portfolio
+site_name: Hemanth C (Hems)
 site_url: https://hemanthvenki910.github.io/Personal-website/
 site_author: Hemanth C
 
 theme:
   name: material
+  logo: 'artifacts/website/home.png'
   features:
     - navigation.tabs
     - navigation.sections
@@ -26,8 +27,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Merriweather
+    code: Fira Code
 
 nav:
   - Home: index.md
@@ -37,6 +38,7 @@ nav:
   - Education: components/education.md
 
 markdown_extensions:
+  - attr_list
   - admonition
   - pymdownx.highlight:
       anchor_linenums: true
@@ -50,3 +52,4 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details
+

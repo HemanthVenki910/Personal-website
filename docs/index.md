@@ -1,4 +1,5 @@
-# Hemanth C
+
+# Hemanth C (Currently at OCI)
 
 **Senior Member of Technical Staff | Software Development Engineer**
 
@@ -12,4 +13,4 @@ Welcome to my personal portfolio. I am a backend-focused Software Engineer with 
 
 ---
 
-[Download Resume](artifacts/Resume.pdf) | [Explore My Experience](components/experience.md) |  [View My Projects](components/projects.md)
+[Download Resume](artifacts/Resume.pdf){ .md-button .md-button--primary } [Explore My Experience](components/experience.md){ .md-button } [View My Projects](components/projects.md){ .md-button }
