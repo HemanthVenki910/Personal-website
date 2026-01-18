@@ -12,4 +12,4 @@ Welcome to my personal portfolio. I am a backend-focused Software Engineer with 
 
 ---
 
-[Explore My Experience](experience.md) [View My Projects](projects.md)
+[Download Resume](artifacts/Resume.pdf) | [Explore My Experience](components/experience.md) |  [View My Projects](components/projects.md)
