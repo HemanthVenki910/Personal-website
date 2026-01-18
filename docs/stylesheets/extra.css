@@ -16,13 +16,26 @@
     will-change: transform;
 }
 
+.md-header__title {
+    font-size: 1.3rem;
+}
+
 .md-tabs__link:hover {
     transform: scale(1.02) translateZ(0);
     font-weight: bold;
 }
 
-
 .md-nav__link--active {
     font-weight: bold;
     transform-origin: left center;
+}
+
+.md-header__button.md-logo {
+    visibility: hidden;
+    display: none;
+}
+
+.md-nav__button.md-logo {
+    visibility: hidden;
+    display: none;
 }
