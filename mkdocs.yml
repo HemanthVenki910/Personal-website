@@ -6,22 +6,24 @@ theme:
   name: material
   logo: 'artifacts/website/home.png'
   features:
+    - toc.follow
+    - toc.integrate
     - navigation.tabs
     - navigation.sections
     - navigation.top
-    - toc.follow
+    - navigation.tracking
+
   palette:
-    # Scheme 1: Default to Light Mode
     - scheme: default
-      primary: amber
-      accent: black
+      primary: white
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     # Scheme 2: Dark Mode
     - scheme: slate
-      primary: amber
+      primary: black
       accent: white
       toggle:
         icon: material/brightness-4
@@ -29,6 +31,9 @@ theme:
   font:
     text: Merriweather
     code: Fira Code
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md

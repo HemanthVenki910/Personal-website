@@ -1,0 +1,28 @@
+:root {
+    font-size: 1.5em;
+}
+
+.md-button {
+    font-size: 0.75rem;
+    padding: 0.1em 0.6rem;
+    line-height: 1.5;
+}
+
+.md-nav__link:hover {
+    transform: scale(1.05) translateZ(0);
+    transform-origin: left center;
+    font-weight: 700;
+    color: #6200ea;
+    will-change: transform;
+}
+
+.md-tabs__link:hover {
+    transform: scale(1.02) translateZ(0);
+    font-weight: bold;
+}
+
+
+.md-nav__link--active {
+    font-weight: bold;
+    transform-origin: left center;
+}
