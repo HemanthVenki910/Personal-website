@@ -1,9 +1,14 @@
-site_name: Hemanth's Personal Portfolio
+site_name: Hemanth's Portfolio
+site_url: https://hemanthvenki910.github.io/Personal-website/
+site_author: Hemanth C
+
 theme:
   name: material
-  font:
-    text: Roboto
-    code: Fira Code
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.follow
   palette:
     # Scheme 1: Default to Light Mode
     - scheme: default
@@ -20,9 +25,19 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
 
-# Essential for DSA code snippets
+nav:
+  - Home: index.md
+  - Experience: experience.md
+  - Projects: projects.md
+  - Skills: skills.md
+  - Education: education.md
+
 markdown_extensions:
+  - admonition
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -32,3 +47,6 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
