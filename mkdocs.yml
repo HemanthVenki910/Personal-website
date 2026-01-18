@@ -1,12 +1,22 @@
-site_name: My Engineering Notebook
+site_name: Hemanth's Personal Portfolio
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - content.code.copy
-  palette: 
-    scheme: default
-    primary: teal
+  palette:
+    # Scheme 1: Default to Light Mode
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Scheme 2: Dark Mode
+    - scheme: slate
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 # Essential for DSA code snippets
 markdown_extensions:
