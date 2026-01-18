@@ -12,16 +12,16 @@ theme:
   palette:
     # Scheme 1: Default to Light Mode
     - scheme: default
-      primary: yellow
-      accent: purple
+      primary: amber
+      accent: black
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     # Scheme 2: Dark Mode
     - scheme: slate
-      primary: yellow
-      accent: purple
+      primary: amber
+      accent: white
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
