@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://hemanthvenki910.github.io/Personal-website/</loc>
+         <lastmod>2026-01-18</lastmod>
+    </url>
+    <url>
+         <loc>https://hemanthvenki910.github.io/Personal-website/education/</loc>
+         <lastmod>2026-01-18</lastmod>
+    </url>
+    <url>
+         <loc>https://hemanthvenki910.github.io/Personal-website/experience/</loc>
+         <lastmod>2026-01-18</lastmod>
+    </url>
+    <url>
+         <loc>https://hemanthvenki910.github.io/Personal-website/projects/</loc>
+         <lastmod>2026-01-18</lastmod>
+    </url>
+    <url>
+         <loc>https://hemanthvenki910.github.io/Personal-website/skills/</loc>
+         <lastmod>2026-01-18</lastmod>
+    </url>
 </urlset>
