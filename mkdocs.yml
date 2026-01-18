@@ -1,6 +1,9 @@
 site_name: Hemanth's Personal Portfolio
 theme:
   name: material
+  font:
+    text: Roboto
+    code: Fira Code
   palette:
     # Scheme 1: Default to Light Mode
     - scheme: default
